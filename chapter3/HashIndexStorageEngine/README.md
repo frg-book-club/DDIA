@@ -39,7 +39,7 @@ python main.py start
 
 example REPL calls
 ```commandline
-$ python city_log.py start
+$ python main.py start
 Enter command (add/get/exit): add
 Enter city name: San Francisco
 Enter population: 884363
