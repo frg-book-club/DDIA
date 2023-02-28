@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message CityInfo {
+  uint64 population = 1;
+  double land_area = 2;
+  // Add more fields as needed
+}
+
+message CityLogEntry {
+  string city_name = 1;
+  CityInfo city_info = 2;
+}
